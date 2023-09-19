@@ -1,14 +1,14 @@
 /* Style for spoken text */
 .speech {
-    font-family: 'Times New Roman', Times, serif,;
-    font-size: 14px; 
+    font-family: 'Times New Roman',serif,;
+    font-size: 16px; 
     color: black;
 }
 
 /* Style for stage directions */
 .direction {
     font-family: "Times New Roman", serif;
-    font-size: 12px; /
+    font-size: 12px;
     color: black; 
     background-color: #f0f0f0;
 }
@@ -19,11 +19,18 @@
     color: white; 
 }
 
+.name {
+    font-family: Arial, sans-serif; /* Choose a font family */
+    font-size: 18px; /* Choose a font size for character names */
+    font-weight: bold; /* Make character names bold */
+    color: red; /* Choose a color for character names */
+}
+
 /* Character-specific styles */
 .hovstad {
-    color: teal; /* Choose a color for Hovstad's lines */
+    color: blue; /* Choose a color for Hovstad's lines */
 }
 
 .petra {
-    color: cyan; /* Choose a color for Petra's lines */
+    color: green; /* Choose a color for Petra's lines */
 }
