@@ -26,6 +26,12 @@
     color: red; /* Choose a color for character names */
 }
 
+.name:hover {
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Red shadow with blur */
+    border: 2px solid blue; /* Blue border */
+    color: powderblue; /* Text color when hovered */
+}
+
 /* Character-specific styles */
 .hovstad {
     color: blue; /* Choose a color for Hovstad's lines */
@@ -33,4 +39,29 @@
 
 .petra {
     color: green; /* Choose a color for Petra's lines */
+}
+
+.mytable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Style for table header cells */
+.mytable th {
+    background-color: #f0f0f0;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Style for table data cells */
+.mytable td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Apply row stripes */
+.mytable tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
