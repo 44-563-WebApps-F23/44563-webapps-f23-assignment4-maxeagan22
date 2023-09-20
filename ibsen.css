@@ -25,13 +25,6 @@
     font-weight: bold; /* Make character names bold */
     color: red; /* Choose a color for character names */
 }
-
-.name:hover {
-    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Red shadow with blur */
-    border: 2px solid blue; /* Blue border */
-    color: powderblue; /* Text color when hovered */
-}
-
 /* Character-specific styles */
 .hovstad {
     color: blue; /* Choose a color for Hovstad's lines */
@@ -39,6 +32,12 @@
 
 .petra {
     color: green; /* Choose a color for Petra's lines */
+}
+
+.name:hover {
+    text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.5); /* Red shadow with blur */
+    border: 2px solid blue; /* Blue border */
+    color: powderblue; /* Text color when hovered */
 }
 
 .mytable table {
